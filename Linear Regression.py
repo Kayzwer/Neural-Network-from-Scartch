@@ -18,7 +18,7 @@ if __name__ == '__main__':
 
     x = np.array([1, 2, 3, 4, 5])
     y = np.array([0.5, 1, 1.5, 2, 2.5])
-    w = 0.5
-    b = 1
+    w = 0
+    b = 0
 
     gradient_descent(x, y, w, b, 10000)
