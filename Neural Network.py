@@ -249,7 +249,7 @@ class Activation_Softplus:
         self.dinputs = dvalues / (1 + np.exp(-self.inputs))
     
     def predictions(self, outputs):
-        return self.output
+        return outputs
 
 # Loss Function
 ########################################################################################################################################################################################################################################
