@@ -1,7 +1,6 @@
 import numpy as np
 
 def gradient_descent(x, y, w, b, iteration):
-    n = len(x)
     learning_rate = 1e-3
 
     for i in range(iteration):
